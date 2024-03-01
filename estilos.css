@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cecece;
+    color: #333;
+    margin: 20px;
+  }
+
+.title {
+    font-size: 80px;
+    color: aqua;
+}
+#titulo{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 5em;
+}
+
+.card{
+    border: 2px solid black;
+    width: fit-content;
+   
+}
+.card:hover{
+background-color: chartreuse;
+}
+
+#list-container{
+    background-color: chocolate;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1,5em;
+    display: flex;
+    justify-content: space-around;
+}
